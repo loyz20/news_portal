@@ -90,7 +90,7 @@ export default function Navbar() {
 
         {/* Mobile Nav */}
         {menuOpen && (
-          <nav className="flex flex-col mt-4 md:hidden space-y-2 px-4 pb-4 bg-blue-950/95 rounded-b-2xl shadow-lg backdrop-blur">
+          <nav className="flex flex-col md:hidden space-y-2 px-4 pb-4 bg-blue-900 rounded-b-2xl shadow-lg">
             <Link href="/" onClick={() => setMenuOpen(false)} className="text-white">Home</Link>
             {["National", "International", "Economy", "Technology", "Sports"].map((item) => (
               <Link key={item} href={`/kategori/${item.toLowerCase()}`} onClick={() => setMenuOpen(false)} className="text-white capitalize">
