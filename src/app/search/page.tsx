@@ -29,7 +29,7 @@ export default function SearchPage() {
   }, [keyword]);
 
   return (
-    <main className="max-w-7xl mx-auto px-4 pt-[88px] space-y-6">
+    <main className="max-w-7xl mx-auto px-4 pt-[88px] space-y-6 dark:text-white">
       <form onSubmit={handleSearch} className="sticky top-[88px] z-20 bg-white py-4 flex items-center gap-2">
         <Input
           type="search"
